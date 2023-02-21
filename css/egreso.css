@@ -1,0 +1,10 @@
+.egreso {
+    float: left;
+    width: 370px;
+}
+
+.egreso .elemento_valor,
+.egreso .elemento_porcentaje,
+.egreso .elemento_eliminar--btn {
+    color: #FF5049;
+}

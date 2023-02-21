@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.limpiarEstilos::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: Open Sans;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+}
+
+.derecha { float: right; }
+.rojo { color: #FF5049 !important; }
+.rojofocus:focus { border: 1px solid #FF5049 !important; }
+
+h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.ingreso , .egreso {
+    text-align: center;
+}
+
+.pie_pagina{
+    justify-content: center;
+    align-items: center;   
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 1rem;
+}

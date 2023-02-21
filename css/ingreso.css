@@ -1,0 +1,15 @@
+.ingreso {
+    float: left;
+    width: 370px;
+    margin-right: 70px;
+}
+
+.ingreso_titulo { color: #28B9B5; }
+.egreso_titulo { color: #FF5049; }
+
+
+
+.ingreso .elemento_valor,
+.ingreso .elemento_eliminar--btn {
+    color: #28B9B5;
+}
